@@ -1,0 +1,47 @@
+html{
+	background-color: #242629;
+	background: url("https://antichat.com/styles/antichat/img/bg.gif");
+	background-attachment: fixed;
+	color: #EDEDEF;
+	font-family: Arial;
+	font-size: 16px;
+}
+pre{
+	color: #FFFFFF;
+	width: 100%
+}
+iframe{
+	width: 1000px;
+	height: 100%;
+	overflow:hidden;
+	border: 0px;
+}
+input{
+	margin: 5px;
+	width: 250px;
+	height: 35px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-indent: 15px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #EDEDEF;
+	background-color: #222426;
+	border: 1px solid #646C71;
+}
+.button{
+	text-indent: 0;
+	background-color: #363940;
+}
+.button:hover{
+	cursor: pointer;
+	background-color: #2B2D30;
+}
+.message{
+	margin: 10px;
+}
+@font-face{
+	font-family: "password";
+	src: url("fonts/password.woff2") format("woff2"), url("fonts/password.woff") format("woff"), url("fonts/password.ttf") format("truetype");
+}

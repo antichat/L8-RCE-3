@@ -1,0 +1,21 @@
+a{
+	color: white;
+}
+.skill{
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+}
+.tip{
+	text-indent: 20px;
+	text-align: justify;
+	width: 500px;
+	margin: 10px;
+}
+.suspended input{
+	opacity: 0.5;
+	pointer-events: none;
+}
+.dir{
+	background-color: red;
+}
